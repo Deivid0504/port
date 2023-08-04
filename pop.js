@@ -25,4 +25,16 @@ var btnAbrirPopup = document.getElementById('bet2'),
     var win= window.open(`https://wa.me/${num}?text=Hola%20mi%20nombre%20es%20${nomb}%20me%20pueden%20ayudar%20con%20esto:%20${asunto}`,'_blank');
   }
   bott.addEventListener('click', capturadt)
+
+
+
+  const btn=document.getElementById('btn2');
+  const captura =() => {
+    let nomb, num;
+    nomb=document.getElementById('subscr-email').value;
+    num=6441116541;
+  
+    var win= window.open(`https://wa.me/${num}?text=Hola%20${nomb}`,'_blank');
+  }
+  btn.addEventListener('click', captura)
   
